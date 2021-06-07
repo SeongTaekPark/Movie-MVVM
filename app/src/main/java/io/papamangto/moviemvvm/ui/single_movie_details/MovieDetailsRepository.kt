@@ -13,6 +13,7 @@ import io.reactivex.disposables.CompositeDisposable
 class MovieDetailsRepository(private val apiService: TheMovieDBInterface) {
 
     // git-flow 설명 테스트
+    // release 수정했어요.
 
     lateinit var movieDetailsNetworkDataSource: MovieDetailsNetworkDataSource
 
